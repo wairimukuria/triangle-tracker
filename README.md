@@ -1,5 +1,5 @@
 # Triangle tracker
- Its an application that tracks/checks and returns what type a triangle is based on the data input put that specifies values of the triangle sides, 15th February 2019
+ Based on the data input of value of sides,the application should tell me what type of triangle my values will produce, whether an isosceles, equilateral, scalene or NO triangle at all. 15th February 2019
 #### By **Margaret Wairimu Kuria**
 ## Description
 its an application that tracks/checks and returns what type a triangle is based on the data input put that specifies values of the triangle sides.the application user is prompted to input a value equivalent to the first side of a triangle after inputting the application again prompts the user to enter a second value which represents the second side of the triange and upon inputting the second the user will be prompted to input a third value of the third side of the triangle.the application then computes the sides and outputs a statement to tell if the triangle is isosceles,scalene or equilateral.
