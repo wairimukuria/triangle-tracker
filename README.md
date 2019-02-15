@@ -1,20 +1,15 @@
 # Triangle tracker
-#### its an application that tracks/checks and returns what type a triangle is based on the data input put that specifies the triangle sides, 15th February 2019
+#### , 15th February 2019
 #### By **Margaret Wairimu Kuria**
 ## Description
-This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have.
+its an application that tracks/checks and returns what type a triangle is based on the data input put that specifies values of the triangle sides.the application user is prompted to input a value equivalent to the first side of a triangle after inputting the application again prompts the user to enter a second value which represents the second side of the triange and upon inputting the second the user will be prompted to input a third value of the third side of the triangle.the application then computes the sides and outputs a statement to tell if the triangle is isosceles,scalene or equilateral.
 ## Setup/Installation Requirements
-* google chrome
-* atom
-* github
-* git
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+All the application requires is a text editor to run the code and a web browser of choice by the user to launch it.
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+the application is fully running once launched on a browser without any bugs encountered so far.
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+The application is built on the hypertext markup language(HTML)with the use of custom made stylesheets that use cascading,box models and floats, CSS and JavaScript using the for loop to run the specifications of the application and give output.
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+if you happen to launch the application and run into any issues or have questions, ideas or concerns,do not hesitate to contact me on my email mimukuria@gmail.com or give me a call on +(254)700 818870.also i highly encourage any contribution(s) to the application and be it also in the code.
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+Copyright (c) {2019} G PL License.
