@@ -1,19 +1,18 @@
-// vanilla javascript
 var triangle = function(sideOne, sideTwo, sideThree){
     if (isTriangle(sideOne, sideTwo, sideThree)) {
       return triangleType(sideOne, sideTwo, sideThree)
     } else {
-      return "These sides do not make a triangle .";
+      alert ("These sides do not make a triangle .");
     }
   };
 
   var triangleType = function(sideOne, sideTwo, sideThree){
     if (sideOne===sideTwo && sideTwo===sideThree) {
-      return "equilateral";
+      alert ("equilateral");
     } else if (sideOne===sideTwo || sideOne===sideThree || sideThree===sideTwo) {
-      return "isosceles";
+      alert ("isosceles");
     } else {
-      return "scalene";
+      alert( "scalene");
     }
   };
 
