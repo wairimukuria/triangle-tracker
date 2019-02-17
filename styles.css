@@ -1,7 +1,61 @@
-
-html{
-  font: 100% verdana,sans-serif;
+html {
+  font: 100% verdana, sans-serif;
 }
+
+body {
+  background-color: lightblue;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
 h1 {
   color: #0000ff;
   text-align: center;
+}
+
+input[type=number]:focus {
+  border: 3px solid #555;
+}
+
+input[type=number] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 14px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]  {
+  width: 30%;
+  background-color: #0000ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+  background-color: darkblue;
+text-align: center;
+}
+
+div {
+  width: 80%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 40px;
+  float: inherit;
+}
+.center {
+  height: 250px;
+  position: inherit;
+  border: 3px solid grey;
+  margin: 0;
+}
