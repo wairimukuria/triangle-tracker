@@ -1,40 +1,25 @@
-var triangle = function(sideOne, sideTwo, sideThree) {
+var triangle = function(){
+  var sideOne = parseInt(document.getElementById("sideOne").value);
+  var sideTwo = parseInt(document.getElementById("sideTwo").value);
+  var sideThree = parseInt(document.getElementById("sideThree").value);
   if (isTriangle(sideOne, sideTwo, sideThree)) {
-    return triangleType(sideOne, sideTwo, sideThree)
-  } else {
-    alert("These sides do not make a triangle .");
+    return triangeType(sideOne,sideTwo,sideThree)
+  }else {
+    return alert("these sides do not make a triangle.");
   }
 };
 
-var triangleType = function(sideOne, sideTwo, sideThree) {
-  if (sideOne === sideTwo && sideTwo === sideThree) {
-    alert("equilateral");
-  } else if (sideOne === sideTwo || sideOne === sideThree || sideThree === sideTwo) {
-    alert("isosceles");
-  } else {
-    alert("scalene");
+var triangleType = function(sideOne,sideTwo,sideThree){
+  if ((sideOne === sideTwo) &&(sideTwo === sideThree)){
+    return alert("Equilateral:All sides of the triangle are equal.");
+  }else if ((sideOne === sideTwo) || (sideOne === sideThree) ||(sideThree === sideTwo)){
+    return alert("Isosceles: All sides of the triangle are equal.");
+  }else{
+    return alert("Scalene: None of the sides of the triange are equal."):
   }
 };
 
-var isTriangle = function(sideOne, sideTwo, sideThree) {
-  return sideOne <= (sideTwo + sideThree) && sideTwo <= (sideThree + sideOne) && sideThree <= (sideOne + sideTwo)
-};
-window.onload = function() {
-  //get the form from the html doc
-  var form = document.querySelector("form");
-  //add listener for the submit action
-  form.addEventListener("submit", function(event) {
-    //get the triangle side values
-    var sOne = form.elements[0].value;
-    var sTwo = form.elements[1].value;
-    var sThree = form.elements[2].value;
-    //compute the value to get triangle type
-    var result = triangleType(sOne, sTwo, sThree);
-    //display the result on the screen h3#result
-    document.getElementById('result').innerHTML = result;
-    //reset the form to empty fields
-    form.reset();
-    // prevent page refresh for the submit event
-    event.preventDefault();
-  });
-};
+
+var isTriangle = function(sideOne,sideTwo,sideThree){
+  return (sideOne <= (sideTwo + sideThree)) && (sideTwo <= (sideThree + sideOne)) && (sideThree <= (sideOne + sideTwo));
+}
